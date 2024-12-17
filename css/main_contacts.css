@@ -1,0 +1,92 @@
+@font-face{ 
+    font-family: "Inter-Regular"; 
+    scr: local("Inter-Regular"); 
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Bold"; 
+    scr: local("Inter-Bold"); 
+    src: url(../fonts/Inter_24pt-Bold.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Black"; 
+    scr: local("Inter-Black"); 
+    src: url(../fonts/Inter_24pt-Black.ttf);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    width: 560px;
+    margin-bottom: 50px;
+}
+
+.contacts__name {
+    font-family: "Inter-Black";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.contacts__telephone__and__email {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.contacts__group {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.contacts__telephone__image {
+    width: 32px;
+    height: 30px;
+}
+
+.contacts__telephone__text {
+    font-family: "Inter-Regular";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+.contacts__email__image {
+    width: 37px;
+    height: 30px;
+}
+
+.contacts__email__text {
+    font-family: "Inter-Regular";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contacts__adress__image {
+    width: 35px;
+    height: 35px;
+}
+
+.contacts__adress__text {
+    font-family: "Inter-Regular";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contacts_map {
+    margin-top: 30px;
+}

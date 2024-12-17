@@ -1,0 +1,90 @@
+@font-face{ 
+    font-family: "Inter-Regular"; 
+    scr: local("Inter-Regular"); 
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Bold"; 
+    scr: local("Inter-Bold"); 
+    src: url(../fonts/Inter_24pt-Bold.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Black"; 
+    scr: local("Inter-Black"); 
+    src: url(../fonts/Inter_24pt-Black.ttf);
+}
+
+.course__main {
+    background-color: #FFCE08;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course__main__name {
+    font-family: "Inter-Black";
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.course__main__image {
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.course__main__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course__main__description  {
+    font-family: "Inter-Regular";
+    font-size: 25px;
+    color: white;
+}
+
+.course__main__name2 {
+    font-family: "Inter-Bold";
+    font-size: 28px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.course__main__list {
+    padding-left: 20px;
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.course__main__list__item {
+    font-family: "Inter-Regular";
+    font-size: 25px;
+    color: white;
+}
+
+.course__main__more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.course__main__button {
+    text-decoration: none;
+    color: black;
+    font-family: "Inter-Black";
+    font-size: 25px;
+    background-color: white;
+    padding: 30px 200px;
+    border-radius: 20px;
+}

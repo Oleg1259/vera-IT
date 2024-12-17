@@ -1,0 +1,129 @@
+@font-face{ 
+    font-family: "Inter-Regular"; 
+    scr: local("Inter-Regular"); 
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Bold"; 
+    scr: local("Inter-Bold"); 
+    src: url(../fonts/Inter_24pt-Bold.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Black"; 
+    scr: local("Inter-Black"); 
+    src: url(../fonts/Inter_24pt-Black.ttf);
+}
+
+.banner {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+}
+
+.banner_description_name {
+    font-family: "Inter-Black";
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.banner_description_description {
+    font-family: "Inter-Regular";
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.banner_img {
+    width: 400px;
+    margin-top: -50px;
+}
+
+.banner_description_buttons_main_button {
+    font-family: "Inter-Bold";
+    font-size: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFCE08;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner_description_buttons_un_main_button {
+    font-family: "Inter-Bold";
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.banner_description_buttons  {
+    margin-top: 100px;
+}
+
+.preimushestva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.preimushesta__name {
+    font-family: "Inter-Black";
+    font-size: 30px;
+}
+
+.preimushestva__blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preimushestva__blocks__block {
+    background-color: #FFCE08;
+    margin-left: 30px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.preimushestva__blocks__block__image {
+    margin-top: 40px;
+}
+
+.preimushestva__blocks__block:first-of-type {
+    margin-left: 0;
+}
+
+.preimushestva__blocks__block__description {
+    font-family: "Inter-Bold";
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}

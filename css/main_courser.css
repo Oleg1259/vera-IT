@@ -1,0 +1,70 @@
+@font-face{ 
+    font-family: "Inter-Regular"; 
+    scr: local("Inter-Regular"); 
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Bold"; 
+    scr: local("Inter-Bold"); 
+    src: url(../fonts/Inter_24pt-Bold.ttf);
+}
+
+@font-face{ 
+    font-family: "Inter-Black"; 
+    scr: local("Inter-Black"); 
+    src: url(../fonts/Inter_24pt-Black.ttf);
+}
+
+.courses__razdel__name {
+    font-family: "Inter-Black";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.courses__block {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.courses__block__cours {
+    margin-left: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 30px;
+    background-color: #FFCE08;
+    margin-top: 30px;
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.courses__block__cours__image {
+    width: 270px;
+    height: 137px;
+}
+
+.courses__block__cours__name {
+    font-family: "Inter-Black";
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.courses__block_cours__price {
+    font-family: "Inter-Regular";
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 16px;
+}
